@@ -31,3 +31,45 @@ console.log(iAmAlive);
 
 var drinks = ['beer', 'wine', 'whiskey']
 console.log(drinks[2]);
+
+// Multi-dimensional array
+var meat = ['ham', 'bologna', 'turkey'];
+var fruit = ['oranges', 'apples', 'grapes'];
+var food = [meat, fruit];
+console.log(food[1][0]); //logs 'oranges' to the console
+
+// var food = [['ham', 'bologna', 'turkey'], ['oranges']]; could also be written like this
+
+// Object
+var user = {
+  firstName: 'Lucille',
+  age: 40,
+  lastName: 'Bluth',
+  hasHair: true,
+  'has-feet': true
+};
+// access properties of our user obj using dot notation
+console.log(user.firstName); //log 'Lucille'
+// We can also access properties on objs using bracket notation
+console.log(user['firstName']); //log 'Lucille'
+console.log(user['has-feet']);
+
+var person = 50
+var horse = 15
+console.log(person + horse);
+
+var car = 'Cadillac'
+var wheels = 'Firestone'
+alert(car+ ' ' + wheels);
+
+var myself = {
+ firstName: 'Michael',
+ lastName: 'Mensinger',
+ fingerCount: 10,
+ interests: ['music', 'guacamole', 'guitars']
+};
+
+console.log(myself.firstName);
+console.log(myself.lastName);
+console.log(myself.fingerCount);
+console.log(myself.interests);
